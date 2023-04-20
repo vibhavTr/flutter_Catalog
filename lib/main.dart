@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
+  
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.light,
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       initialRoute: MyRoutes.homeRoute,
       routes: {
         "/": (context) => const LoginPage(),
-        MyRoutes.homeRoute: (context) => const HomePage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => const LoginPage(),
       },
     );
