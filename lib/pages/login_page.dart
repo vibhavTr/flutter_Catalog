@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/utils/routes.dart';
 
@@ -44,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
             Text(
               "Welcome $name",
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
               ),
@@ -113,7 +111,7 @@ class _LoginPageState extends State<LoginPage> {
                                     Icons.done,
                                     color: Colors.white,
                                   )
-                                : Text(
+                                : const Text(
                                     'Login',
                                     style: TextStyle(
                                       color: Colors.white,
