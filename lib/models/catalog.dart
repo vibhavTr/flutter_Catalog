@@ -29,12 +29,12 @@ class Item {
     required String image,
   }) {
     return Item(
-      id: id ?? this.id,
-      name: name ?? this.name,
-      desc: desc ?? this.desc,
-      price: price ?? this.price,
-      color: color ?? this.color,
-      image: image ?? this.image,
+      id: id,
+      name: name,
+      desc: desc,
+      price: price,
+      color: color,
+      image: image,
     );
   }
 
