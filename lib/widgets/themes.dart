@@ -16,7 +16,6 @@ class MyTheme {
           iconTheme: IconThemeData(
             color: Colors.black,
           ),
-          foregroundColor: Colors.black,
         ),
       );
   static ThemeData darkTheme(BuildContext context) => ThemeData(
